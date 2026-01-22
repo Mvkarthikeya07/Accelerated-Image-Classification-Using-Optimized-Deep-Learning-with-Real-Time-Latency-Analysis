@@ -70,15 +70,15 @@ These technologies significantly reduce inference latency in production environm
 
 ### 🔹 Home Screen
 
-![Home Screen](Screenshot%20\(106\).png)
+<img width="1366" height="768" alt="Screenshot (106)" src="https://github.com/user-attachments/assets/147ccb85-9d4e-41f2-a25b-c0f26f149d32" />
 
-### 🔹 Image Classification Result – Cat
+### 🔹 Image Classification Result 
 
-![Cat Prediction](Screenshot%20\(107\).png)
+<img width="1366" height="768" alt="Screenshot (107)" src="https://github.com/user-attachments/assets/39f8c0bd-569b-4488-a41e-4776add38f92" />
 
-### 🔹 Image Classification Result – Dog
+### 🔹 Image Classification Result
 
-![Dog Prediction](Screenshot%20\(108\).png)
+![Uploading Screenshot (108).png…]()
 
 ---
 
