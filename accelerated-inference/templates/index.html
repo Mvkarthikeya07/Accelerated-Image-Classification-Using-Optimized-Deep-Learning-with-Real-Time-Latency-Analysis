@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Vision App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="app">
+
+    <div class="header">
+        <h1>AI Vision</h1>
+        <p>Accelerated Neural Network Inferencing</p>
+        <span>TensorRT & Triton Inference Server</span>
+    </div>
+
+    <form method="POST" enctype="multipart/form-data" class="upload-box">
+        <input type="file" name="image" id="image" required>
+        <label for="image">📷 Choose Image</label>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+    <div class="result-card">
+
+        <img src="{{ image_path }}" class="preview" alt="Uploaded Image">
+
+        <h2>Prediction Result</h2>
+        <p><strong>Predicted Class:</strong> {{ prediction }}</p>
+        <p><strong>Confidence:</strong> {{ confidence }}%</p>
+        <p class="latency">⚡ {{ latency }} ms</p>
+
+    </div>
+    {% endif %}
+
+</div>
+
+</body>
+</html>
